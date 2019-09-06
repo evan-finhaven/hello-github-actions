@@ -13,5 +13,7 @@ LABEL "maintainer"="Octocat <octocat@github.com>"
 #RUN chmod +x /entrypoint.sh
 #ENTRYPOINT ["/entrypoint.sh"]
 
+RUN ls -l
+RUN pwd
 RUN cargo test
 
