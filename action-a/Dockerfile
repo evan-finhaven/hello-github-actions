@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM rust:1.36.0
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
