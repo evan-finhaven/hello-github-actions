@@ -6,7 +6,9 @@ jobs:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@demo
+      - uses: actions/checkout@master
+        with:
+          ref: demo # name of the branch to check out
       - uses: ./action-a
         env:
           MY_NAME: "Mona"
